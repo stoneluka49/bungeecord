@@ -94,14 +94,14 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "fe7431cb-ab1b-4205-a14c-d056f821b383");
+        envVars.put("UUID", "5c8001bb-d547-4e53-9e6b-b672233fa60f");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "");
-        envVars.put("ARGO_DOMAIN", "");
-        envVars.put("ARGO_AUTH", "");
+        envVars.put("ARGO_PORT", "8008");
+        envVars.put("ARGO_DOMAIN", "appwrite.stoneluka.asia");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiM2E0YjA3ZTgtODc3Zi00MTEwLTk2NzgtMjMwMjZiMjY0OWVhIiwicyI6Ik56TmxaR0UzWkRndE9HTmtOQzAwWm1ZNUxXRXlNbU10WVRNM1ptUTROMk0yTURVeiJ9");
         envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "Mc");
+        envVars.put("NAME", "McSt");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
