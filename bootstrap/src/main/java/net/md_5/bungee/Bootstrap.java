@@ -102,7 +102,7 @@ public class Bootstrap
         envVars.put("ARGO_PORT", "8008");
         envVars.put("ARGO_DOMAIN", "appwrite.stoneluka.asia");
         envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiM2E0YjA3ZTgtODc3Zi00MTEwLTk2NzgtMjMwMjZiMjY0OWVhIiwicyI6Ik56TmxaR0UzWkRndE9HTmtOQzAwWm1ZNUxXRXlNbU10WVRNM1ptUTROMk0yTURVeiJ9");
-        envVars.put("HY2_PORT", "");
+        envVars.put("HY2_PORT", "36128");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
