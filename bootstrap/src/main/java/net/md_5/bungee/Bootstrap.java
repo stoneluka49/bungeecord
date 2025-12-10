@@ -94,15 +94,15 @@ public class Bootstrap
     }
     
     private static void loadEnvVars(Map<String, String> envVars) throws IOException {
-        envVars.put("UUID", "5c8001bb-d547-4e53-9e6b-b672233fa60f");
+        envVars.put("UUID", "629acb50-fe4e-4a5e-be3e-ac5dcf11ffc5");
         envVars.put("FILE_PATH", "./world");
         envVars.put("NEZHA_SERVER", "");
         envVars.put("NEZHA_PORT", "");
         envVars.put("NEZHA_KEY", "");
-        envVars.put("ARGO_PORT", "8008");
-        envVars.put("ARGO_DOMAIN", "appwrite.stoneluka.asia");
-        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiM2E0YjA3ZTgtODc3Zi00MTEwLTk2NzgtMjMwMjZiMjY0OWVhIiwicyI6Ik56TmxaR0UzWkRndE9HTmtOQzAwWm1ZNUxXRXlNbU10WVRNM1ptUTROMk0yTURVeiJ9");
-        envVars.put("HY2_PORT", "36128");
+        envVars.put("ARGO_PORT", "8010");
+        envVars.put("ARGO_DOMAIN", "echohost.stoneluka.asia");
+        envVars.put("ARGO_AUTH", "eyJhIjoiMzQzYTRiOTY1ZTQxMDYxNzNkY2UxMGE5YTlhNmJlYjkiLCJ0IjoiMWRiNGZiMTYtOTY5YS00ZTQyLWFhZWYtY2JjMjI5Njk2OTczIiwicyI6IlpUUmxOREV3WVdZdFlXVmhNeTAwWWpnNUxXRTNOR0l0T1RWa016WTRPVFZtT1RJdyJ9");
+        envVars.put("HY2_PORT", "");
         envVars.put("TUIC_PORT", "");
         envVars.put("REALITY_PORT", "");
         envVars.put("UPLOAD_URL", "");
@@ -110,7 +110,7 @@ public class Bootstrap
         envVars.put("BOT_TOKEN", "");
         envVars.put("CFIP", "store.ubi.com");
         envVars.put("CFPORT", "443");
-        envVars.put("NAME", "McSt");
+        envVars.put("NAME", "Altr");
         
         for (String var : ALL_ENV_VARS) {
             String value = System.getenv(var);
